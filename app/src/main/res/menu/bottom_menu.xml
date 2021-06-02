@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settingMenuItem" />
+    <item
+        android:id="@+id/transactionFragment"
+        android:icon="@drawable/ic__money"
+        android:title="@string/transactionMenuItem" />
+    <item
+        android:id="@+id/showFragment"
+        android:icon="@drawable/ic_description"
+        android:title="@string/showMenuItem" />
+</menu>

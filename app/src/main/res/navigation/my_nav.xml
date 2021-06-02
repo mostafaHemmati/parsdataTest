@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/transactionFragment">
+
+    <fragment
+        android:id="@+id/transactionFragment"
+        android:name="com.hemmati.parsdatapriject.presentation.transaction.TransactionFragment"
+        android:label="Transaction"
+        tools:layout="@layout/fragment_transaction" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.hemmati.parsdatapriject.presentation.setting.SettingFragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/showFragment"
+        android:name="com.hemmati.parsdatapriject.presentation.show.ShowFragment"
+        android:label="Show"
+        tools:layout="@layout/fragment_show" />
+</navigation>
