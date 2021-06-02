@@ -53,10 +53,7 @@ class TransactionFragment : Fragment() {
         if (isNetworkAvailable())
             transactionViewModel.getPosts()
         else
-            Toast.makeText(
-                activity, getString(R.string.no_internet_connection),
-                Toast.LENGTH_LONG
-            ).show()
+           showToast(getString(R.string.no_internet_connection))
 
         with(transactionViewModel) {
             transactionData.observe(viewLifecycleOwner) {

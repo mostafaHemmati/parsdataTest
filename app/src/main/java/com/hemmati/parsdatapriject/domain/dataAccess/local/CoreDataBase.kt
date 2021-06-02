@@ -7,7 +7,7 @@ import com.hemmati.parsdatapriject.domain.model.StatisticsEntity
 @Database(
     entities = [StatisticsEntity::class],
     version = 1,
-    exportSchema = false
+    exportSchema = true
 )
 abstract class CoreDatabase : RoomDatabase() {
     abstract fun statisticsDao(): StatisticsDao
